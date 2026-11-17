@@ -6,6 +6,6 @@ Static one-page site. No build step, no tracking, no cookies.
 - `404.html` — not-found page
 - `fonts/` — self-hosted Source Serif 4 and Manrope (SIL Open Font License, see OFL-*.txt)
 - `og-image.jpg` — link preview for LinkedIn and messengers
-- `.htaccess` — Apache settings for GoDaddy hosting: HTTPS and www redirects, 404 page, caching
+- `netlify.toml` — Netlify settings: security headers and caching
 
-Hosting: GoDaddy (upload the contents of this folder to the site root, usually `public_html`). This repository keeps the version history.
+Hosting: Netlify, deployed automatically from the `main` branch of this repository. Domain `danilenko.info` is registered at GoDaddy and points to Netlify. Every change is a commit here, so any earlier version can be restored.
