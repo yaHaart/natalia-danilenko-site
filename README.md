@@ -6,6 +6,7 @@ Static one-page site. No build step, no tracking, no cookies.
 - `404.html` — not-found page
 - `fonts/` — self-hosted Source Serif 4 and Manrope (SIL Open Font License, see OFL-*.txt)
 - `og-image.jpg` — link preview for LinkedIn and messengers
-- `netlify.toml` — Netlify settings: security headers and caching
+- `CNAME` — custom domain for GitHub Pages
+- `.nojekyll` — serve files as they are, without Jekyll processing
 
-Hosting: Netlify, deployed automatically from the `main` branch of this repository. Domain `danilenko.info` is registered at GoDaddy and points to Netlify. Every change is a commit here, so any earlier version can be restored.
+Hosting: GitHub Pages, published from the `main` branch of this repository. Domain `danilenko.info` is registered at GoDaddy and points to GitHub Pages; email for contact@danilenko.info is forwarded by ImprovMX. Every change is a commit here, so any earlier version can be restored.
